@@ -8,4 +8,8 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  passenegers.each do |key, value|
+    if key == "suit_a" && value.start_with?("A")
+      puts name
+    end
 end
